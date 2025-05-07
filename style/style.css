@@ -224,7 +224,10 @@ a {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 100px 0;
+
+    .container {
+        padding: 100px 0;
+    }
 
     .image-container {
         width: 60%;
@@ -249,14 +252,30 @@ a {
         .image-container {
             order: 2;
         }
+
+        svg {
+            background-color: white;
+        }
     }
+
+    &:nth-child(even) {
+
+        svg {
+            background-color: lightgrey;
+        }
+    }
+
 }
 
 .center-image-section {
     display: flex;
-    align-items: center;
+    flex-direction: column;
+    justify-content: center;
     background-color: lightgrey;
-    padding: 100px 0;
+
+    .container {
+        padding: 100px 0;
+    }
 
     .center-image-section-content {
         display: flex;
@@ -276,6 +295,10 @@ a {
         button {
             margin-top: 40px;
         }
+    }
+
+    svg {
+        background-color: white;
     }
 }
 

@@ -19,6 +19,7 @@
     align-items: center;
     text-align: center;
     gap: 2rem;
+    max-width: 800px;
     width: 50%;
     margin: 100px auto;
 }
@@ -68,9 +69,9 @@ a {
 }
 
 .btn-lg {
-    padding: 15px 25px;
+    padding: 12px 25px;
     border-radius: 30px;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     border: none;
 }
 
@@ -180,16 +181,18 @@ a {
     display: flex;
     align-items: center;
     background-image: url("../img/jumbo.png");
-    background-size: cover;
+    background-size: 100%;
     background-repeat: no-repeat;
     color: white;
+    margin-bottom: 100px;
 
     & h1 {
         font-size: 3rem;
     }
 
     & p {
-        font-size: 1.5rem;
+        font-size: 1.2rem;
+        line-height: 1.8rem;
     }
 
     .button-container {

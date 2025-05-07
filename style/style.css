@@ -30,6 +30,29 @@
     background-color: lightgrey;
 }
 
+.bg-white {
+    background-color: white;
+}
+
+/* Generics */
+ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    gap: 2rem;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+button {
+    padding: 10px 15px;
+    border-radius: 20px;
+    border: none;
+}
+
 /* Debug */
 .debug {
     * {
@@ -121,10 +144,13 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    background-color: #255EE9;
 
     .header-content {
-        text-align: center;
-        padding: 5px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 20px 0;
     }
 }
 
@@ -132,6 +158,7 @@
 .banner-section {
     display: flex;
     align-items: center;
+    background-image: url("../img/jumbo.png");
 
     .banner-content {
         width: 80%;
